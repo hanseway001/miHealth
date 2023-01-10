@@ -55,44 +55,44 @@ body {
   div {
 
   } */
-  .mainContent {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    background-image: url("images/dust_scratches.webp");
-    background-repeat: repeat;
-  }
-  .content {
-    padding: 30px 10px 10px 10px;
-    width: 350px;
-    height: 450px;
-    text-align: left;
-    /* display: flex; */
-  }
-  #image {
-    display: flex;
-    justify-content: end;
-    width: 350px;
-    height: 450px;
-    background-image: url("images/apple-breakfast-quinoa-7.jpeg");
-  }
-  #arrow {
-    width: 30px;
-    height: 20px;
-  }
-  #whiteTag {
-    background-color: rgb(255, 255, 255);
-  }
-  #greenTag {
-    background-color: green;
-  }
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-image: url("images/dust_scratches.webp");
+  background-repeat: repeat;
+}
+.content {
+  padding: 30px 10px 10px 10px;
+  width: 350px;
+  height: 450px;
+  text-align: left;
+  /* display: flex; */
+}
+#image {
+  display: flex;
+  justify-content: end;
+  width: 350px;
+  height: 450px;
+  background-image: url("images/apple-breakfast-quinoa-7.jpeg");
+}
+#arrow {
+  width: 30px;
+  height: 20px;
+}
+#whiteTag {
+  background-color: rgb(255, 255, 255);
+}
+#greenTag {
+  background-color: green;
+}
 h1 {
     font-size: 18mm;
     font-weight: bold;
 }
   img {
-      width: 350px;
-      height: 450px;
+      /* width: 350px;
+      height: 450px; */
       /* padding: 10px; */
       /* border-radius: 80em 80em 80em 80em; */
       /* border: 2px solid whitesmoke; */
