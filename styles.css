@@ -54,10 +54,13 @@ p {
   height: 450px;
   text-align: left;
 }
+.content p {
+  max-width: 300px;
+}
 #arrow {
   padding-left: 10px;
   width: 30px;
-  height: 20px;
+  height: 10px;
 }
 .image {
   width: 350px;
@@ -67,6 +70,7 @@ p {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  margin: 0px 10px;
 }
 #breakfast {
   background-image: url("images/apple-breakfast-quinoa-7.jpeg");
@@ -106,7 +110,7 @@ h3 {
     max-width: 200px;
 }
 h4 {
-
+  font-size: 1em;
 }
 h5 {
   margin: 0px;
